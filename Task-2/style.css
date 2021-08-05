@@ -1,0 +1,87 @@
+/* topic */
+.topic h1 {
+  color: #00bf6f;
+  margin: 100px;
+}
+/* Questions */
+.question-legend {
+  font-size: 20px;
+  color: #333e48;
+}
+.question-option {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+input:hover {
+  background-color: white;
+  border: #00bf6f;
+}
+.form-check-lable {
+  font-size: 15px;
+  font-weight: 600;
+}
+/* rating-scale */
+.sacle_data {
+  width: 20%;
+}
+.radio_scale_body {
+  background-color: #707070;
+}
+.radio-scale {
+  width: 10%;
+}
+.radio_scale_body {
+  padding-bottom: 50px;
+}
+/* Question 4 */
+input .inline-input-option {
+  margin-left: 50px;
+}
+.inline-lable-option {
+  margin-left: 70px;
+}
+/* Submit */
+.submit {
+  float: right;
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+/* .submit button {
+  padding: 20px;
+  font-size: 20px;
+} */
+.submit button:hover {
+  background-color: #00bf6f;
+}
+/* form-check */
+.form-check {
+  display: block;
+  padding: 5px;
+}
+.form-check .radio-scale input:hover {
+  background-color: white;
+  outline-width: 1px solid;
+  outline-color: #00bf6f;
+  cursor: pointer;
+}
+/* form-check-hovering */
+.form-check:hover {
+  color: white;
+  background-color: #333e48;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 3px;
+  width: 40%;
+  overflow: hidden;
+}
+/* responsive */
+@media only screen and (min-width: 600px) {
+  /* for mobiles */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .topic h1 {
+    text-align: left;
+    width: 50%;
+  }
+}
