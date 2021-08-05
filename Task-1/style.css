@@ -1,0 +1,83 @@
+/* body {
+  background-image: radial-gradient(to bottom left, #4e65ff, #92effd);
+}
+.page_wrapper {
+  background-color: radial-gradient(to bottom left, #4e65ff, #92effd);
+} */
+/* form */
+.form-group input {
+  width: 60%;
+  /* background-image: linear-gradient(to left, #4e65ff, #92effd); */
+}
+.form-group label {
+  color: #00bf6f;
+  font-size: 20px;
+}
+.form_body {
+  padding: 50px 50px 50px 100px;
+  /* background-image: linear-gradient(to left, #c33764, #1d2671); */
+}
+/* header */
+.header_form {
+  padding-top: 50px;
+}
+.header_form h1 {
+  text-align: center;
+  color: #00bf6f;
+}
+.header_decore {
+  /* position: absolute; */
+  padding-left: 500px;
+  padding-bottom: 50px;
+}
+/* Req hrader */
+.requir_header {
+  padding-top: 30px;
+}
+
+/* From-check */
+.form-check {
+  width: 50%;
+  padding-top: 30px;
+}
+.form-check label {
+  font-style: bold;
+  color: #00bf6f;
+  font-size: 20px;
+}
+.form-check {
+  width: 200px;
+}
+.req_check_box {
+  display: flex;
+  margin: 5px;
+}
+/* radios */
+.gender {
+  padding-top: 50px;
+}
+.gender input {
+  width: 100%;
+}
+.gender legend {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  padding-bottom: 20px;
+}
+/* file upload */
+.file-upload-btn input {
+  width: 50%;
+}
+/* Submit */
+.submit {
+  padding-top: 50px;
+}
+.btn {
+  position: relative;
+  width: 200px;
+  /* margin: 50px 450px 50px; */
+}
+.submit button:hover {
+  background-color: #00bf6f;
+}
