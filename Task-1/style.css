@@ -1,17 +1,80 @@
-/* body {
-  background-image: radial-gradient(to bottom left, #4e65ff, #92effd);
+.container {
+  min-width: 992px !important;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
 }
-.page_wrapper {
-  background-color: radial-gradient(to bottom left, #4e65ff, #92effd);
-} */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
 /* form */
-.form-group input {
-  width: 60%;
-  /* background-image: linear-gradient(to left, #4e65ff, #92effd); */
+.form-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.form-check {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+}
+
+.form-check-input {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: -1.25rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* names */
+.form-row .col {
+  margin: 10px;
+  padding-left: 200px;
 }
 .form-group label {
   color: #00bf6f;
   font-size: 20px;
+}
+/* email and pass */
+.col-mail {
+  margin: 10px;
+  padding-left: 200px;
+}
+.col-pass {
+  margin: 10px;
+  padding-left: 200px;
 }
 .form_body {
   padding: 50px 50px 50px 100px;
@@ -53,6 +116,13 @@
   margin: 5px;
 }
 /* radios */
+.col-options {
+  padding-top: 10px;
+}
+input:hover {
+  background-color: #212529;
+  color: #00bf6f;
+}
 .gender {
   padding-top: 50px;
 }
@@ -65,19 +135,36 @@
   color: black;
   padding-bottom: 20px;
 }
+/* fieldset */
+fieldset {
+  border: none;
+}
 /* file upload */
-.file-upload-btn input {
-  width: 50%;
+#exampleFormControlFile1 {
+  border: none;
 }
 /* Submit */
 .submit {
+  padding-left: 40%;
   padding-top: 50px;
+}
+.submit button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #212529;
+  background-color: #00bf6f;
+  border: none;
+}
+.submit button:hover {
+  color: #00bf6f;
+  background-color: #212529;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.5s;
 }
 .btn {
   position: relative;
   width: 200px;
   /* margin: 50px 450px 50px; */
-}
-.submit button:hover {
-  background-color: #00bf6f;
 }
