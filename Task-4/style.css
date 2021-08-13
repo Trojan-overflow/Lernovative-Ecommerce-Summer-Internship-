@@ -1,0 +1,52 @@
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+}
+.card:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+.card img:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+.card img {
+  padding: 10px;
+}
+.card-body a {
+  text-decoration: none;
+  color: #00bf6f;
+}
+.card-body a:hover {
+  background-color: black;
+  color: #00bf6f;
+}
+.card-body-new:hover {
+  background-color: #00bf6f;
+  transition: 0.5s;
+}
+.card-body-new a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+.card-body-new a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+.card {
+  margin: 50px;
+}
+.home {
+  padding: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
