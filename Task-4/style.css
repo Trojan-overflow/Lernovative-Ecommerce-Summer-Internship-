@@ -4,18 +4,18 @@ body {
 
 .container {
   padding-top: 50px;
-  padding-left: 100px;
+  padding-left: 200px;
   display: flex;
 }
 .card:hover {
   background-color: black;
   color: white;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 .card img:hover {
   background-color: black;
   color: white;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 .card img {
   padding: 10px;
